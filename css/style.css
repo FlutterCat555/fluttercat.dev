@@ -18,24 +18,28 @@ body {
 a {
     text-decoration: none;
 }
+.break{
+    padding: 2em
+}
 .pronouns{
     transform: translateY(-65%);
 }
 .biography{
-    transform: translateY(-3em);
+    padding: 4em;
+    transform: translateY(-4em);
 }
 .container {
-    padding: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .pfp {
+    padding-top: 3em;
     padding-right: 2%;
     display: block;
 }
 .links {
-    transform: translateY(-60%);
+    transform: translateY(-0.5em);
     word-spacing: 75%;
 }
 
