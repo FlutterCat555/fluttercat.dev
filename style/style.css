@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+.title{
+    padding-top: 4%;
+    text-align: center;
+}
+
+.paragraph{
+    display: inline-block;
+    text-align: left;
+    justify-content: left;
+}
