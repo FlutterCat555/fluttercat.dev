@@ -8,6 +8,7 @@
 body {
     font-size: 1.25em;
     animation: fadeInUp 1.5s;
+    background: #ffbeb4;
     background-image: url("../assets/gradientbg-export.png");
     background-repeat: no-repeat;
     background-size: cover;
