@@ -27,6 +27,7 @@ a {
     transform: translateY(-65%);
 }
 .biography{
+    max-width: 26em;
     padding: 4em;
     transform: translateY(-4em);
 }
