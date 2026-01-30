@@ -6,6 +6,7 @@
     font-display: swap;
 }
 body {
+    cursor: url("../assets/cursor_ol.png"), auto;
     animation: fadeInUp 2s;
     font-size: 1.25em;
     background: #ffbeb4;
