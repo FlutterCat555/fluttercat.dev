@@ -17,11 +17,21 @@ body {
     font-family: VCR, sans-serif;
     color: white;
 }
+a {
+    color: #54954e;
+    text-decoration: none;
+}
+.images {
+    padding-bottom: 1em;
+}
+.container {
+    animation: fadeInUp 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .break{
     padding: 2em
-}
-a {
-    text-decoration: none;
 }
 .pronouns{
     transform: translateY(-65%);
@@ -31,11 +41,8 @@ a {
     padding: 4em;
     transform: translateY(-4em);
 }
-.container {
-    animation: fadeInUp 1.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer {
+    padding-bottom: 2em;
 }
 .pfp {
     padding-top: 3em;
@@ -45,6 +52,9 @@ a {
 .links {
     transform: translateY(-0.5em);
     word-spacing: 75%;
+}
+.title {
+    padding-top: 3em;
 }
 /*credit to https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/*/
 /*IMPORTANT: we use css for blink instead of js because centering and we dont want to delete text so it redoes centering*/
