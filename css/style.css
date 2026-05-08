@@ -6,6 +6,7 @@
     font-display: swap;
 }
 body {
+    width: 150vw;
     -webkit-font-smoothing: antialiased;
     cursor: url("../assets/cursor_ol.png"), auto;
     animation: fadeInUp 2s;
