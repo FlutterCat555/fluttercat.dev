@@ -5,62 +5,45 @@
     font-style: normal;
     font-display: swap;
 }
-body {
-    max-height: 5em;
-    -webkit-font-smoothing: antialiased;
-    cursor: url("../assets/cursor_ol.png"), auto;
-    animation: fadeInUp 2s;
-    font-size: 1.65em;
-    background-image: url("../assets/wheat.gif");
+
+body{
+
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color:white;
+
+    font-family: VCR, sans-serif;
+    animation: fadeInUp 1.5s;
+
+    background-position: bottom;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    font-family: VCR, sans-serif;
-    color: white;
+    background-image: url("../assets/wheat.gif");
 }
-a {
-    color: #54954e;
-    text-decoration: none;
-}
+
 hr {
-    border: 0px;
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    border: 0;
     border-radius: 10em;
     background-color: #ffff;
-    height: 3px;
+    height: 4px;
     width: 20em;
     margin: 20px auto; /* Centers the line with top/bottom spacing */
 }
-.containertitle {
-    padding-top: 20vw
-}
-.images {
-    padding-bottom: 1em;
+
+.pfp{
+    border-radius: 5%;
+    max-width: 50vw;
 }
 .container {
     animation: fadeInUp 1.5s;
-    display: flex;
-    /*align-items: center;*/
-    justify-content: center;
-}
-.biography{
-    max-width: 20em;
-    /*padding: 4em;*/
-    /*transform: translateY(-4em);*/
-}
-.footer {
-    padding-bottom: 2em;
-}
-.pfp {
-    border-radius: 5%;
-    display: block;
-    transform: translateX(-5%);
-}
-.links {
-    transform: translateY(-0.5em);
-    word-spacing: 75%;
-}
-.title {
-    padding-top: 3em;
 }
 
 
@@ -74,9 +57,6 @@ hr {
     50%,100% {
         opacity: 1;
     }
-}
-.blinking-text {
-    animation: blink 1s infinite;
 }
 /*credit to https://dev.to/tiaeastwood/super-simple-css-animation-for-fade-in-on-page-load-2p8m*/
 @keyframes fadeInUp {
