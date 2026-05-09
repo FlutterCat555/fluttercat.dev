@@ -7,8 +7,7 @@
 }
 
 body{
-
-    font-size: 2.5vh;
+    font-size: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,12 +37,32 @@ hr {
     margin: 20px auto; /* Centers the line with top/bottom spacing */
 }
 
+p {
+    overflow-wrap: break-word;
+    max-width: 100%;
+    min-width: 0;
+}
+
+footer {
+    padding-bottom: 2em;
+}
+
+.image{
+    width: 5em;
+    border-radius: 5%;
+    flex-shrink: 0;
+    align-self: center;
+}
+
 .pfp{
     border-radius: 5%;
-    max-width: 50vw;
+    max-width: 45vw;
 }
 .container {
     animation: fadeInUp 1.5s;
+}
+.text{
+    max-width: 20em
 }
 
 
