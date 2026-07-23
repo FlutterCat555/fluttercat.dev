@@ -56,7 +56,7 @@ footer {
 
 .pfp{
     border-radius: 5%;
-    max-width: 45vw;
+    max-width: 256px;
 }
 .container {
     animation: fadeInUp 1.5s;
